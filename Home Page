@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unit Converter</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li> <!-- Link to the home page -->
+                <li><a href="about.html">About</a></li> <!-- Link to the About page -->
+                <li><a href="categories.html">Categories</a></li> <!-- Link to Categories page -->
+                <li><a href="faq.html">FAQs</a></li> <!-- Link to FAQ page -->
+                <li><a href="contact.html">Contact</a></li> <!-- Link to Contact page -->
+            </ul>
+        </nav>
+        <h1>Welcome to the Advanced Unit Converter</h1>
+        <p>Your one-stop solution for converting length, weight, temperature, currency, and binary.</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Why Use Our Unit Converter?</h2>
+            <p>Our converter is designed for speed, accuracy, and ease of use. Convert units seamlessly with an intuitive interface and get precise results.</p>
+        </section>
+        
+        <section class="converter-categories">
+            <h2>Our Conversion Categories</h2>
+            <div class="category">
+                <img src="https://th.bing.com/th/id/OIP.ROV7PyZ4S604qULBrY-V0QHaHa?pid=ImgDet&w=204&h=204&c=7" alt="Length Converter">
+                <h3><a href="length.html">Length Converter</a></h3> <!-- Link to Length Converter page -->
+                <p>Convert meters, kilometers, and miles accurately and quickly.</p>
+            </div>
+            <div class="category">
+                <img src="https://calculator.cool/webpages/images/weight-conveter.jpg" alt="Weight Converter">
+                <h3><a href="weight.html">Weight Converter</a></h3> <!-- Link to Weight Converter page -->
+                <p>Convert kilograms, grams, pounds, and more.</p>
+            </div>
+            <div class="category">
+                <img src="https://www.codehim.com/wp-content/uploads/2023/09/Simple-Temperature-Converter-in-JavaScript.png" alt="Temperature Converter">
+                <h3><a href="temperature.html">Temperature Converter</a></h3> <!-- Link to Temperature Converter page -->
+                <p>Convert Celsius to Fahrenheit and vice versa.</p>
+            </div>
+            <div class="category">
+                <img src="https://media.cheggcdn.com/media/19c/19ca7d42-3e77-4b4b-ac09-e4edbdfd3caa/phpRzf2pd.png" alt="Currency Converter">
+                <h3><a href="currency.html">Currency Converter</a></h3> <!-- Link to Currency Converter page -->
+                <p>Convert currencies such as USD, EUR, INR, and more.</p>
+            </div>
+            <div class="category">
+                <img src="https://www.convertbinary.com/wp-content/uploads/Text-to-Binary-step-4.png" alt="Binary Converter">
+                <h3><a href="binary.html">Binary Converter</a></h3> <!-- Link to Binary Converter page -->
+                <p>Convert between decimal and binary formats.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Unit Converter. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
