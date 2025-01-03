@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Our Team</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        header {
+            text-align: center;
+            background-color: #4CAF50;
+            color: white;
+            padding: 1em 0;
+        }
+        .navbar {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            padding: 0;
+            background-color: #333;
+        }
+        .navbar li {
+            margin: 0 15px;
+        }
+        .navbar a {
+            text-decoration: none;
+            color: white;
+            font-size: 16px;
+        }
+        .navbar a:hover {
+            color: #4CAF50;
+        }
+        .team {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            padding: 2em;
+            gap: 2em;
+        }
+        .team-member {
+            text-align: center;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+            padding: 1em;
+            width: 250px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+        .team-member img {
+            width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+        footer {
+            text-align: center;
+            background-color: #333;
+            color: white;
+            padding: 1em 0;
+            margin-top: 2em;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Meet Our Team</h1>
+    </header>
+
+    <nav>
+        <ul class="navbar">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="testimonials.html">Testimonials</a></li>
+            <li><a href="blog.html">Blog</a></li>
+            <li><a href="team.html">Team</a></li>
+            <li><a href="services.html">Services</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section class="team">
+            <div class="team-member">
+                <img src="https://via.placeholder.com/250" alt="Rifad(1873)">
+                <h3>Rifad(1873)</h3>
+                <p>Lead Developer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/250" alt="Hafijur Rahman">
+                <h3>Hafijur Rahman</h3>
+                <p>UI/UX Designer</p>
+            </div>
+            <div class="team-member">
+                <img src="https://via.placeholder.com/250" alt="Rifad Kazi">
+                <h3>Rifad Kazi</h3>
+                <p>Quality Assurance</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Unit Converter. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
