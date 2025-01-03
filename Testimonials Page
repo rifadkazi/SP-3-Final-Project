@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Testimonials</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <h1>What Our Users Say</h1>
+    </header>
+
+    <main>
+        <section class="testimonials">
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/100" alt="User 1">
+                <p>"This unit converter is a lifesaver! It's accurate and super easy to use." - <b>Jane Doe</b></p>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/100" alt="User 2">
+                <p>"I love the currency converter feature. It helped me a lot during my travels!" - <b>John Smith</b></p>
+            </div>
+            <div class="testimonial">
+                <img src="https://via.placeholder.com/100" alt="User 3">
+                <p>"The binary conversion tool is my favorite. Highly recommended for techies!" - <b>Emily Davis</b></p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Unit Converter. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
