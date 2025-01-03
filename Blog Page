@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blog</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <h1>Our Blog</h1>
+    </header>
+
+    <main>
+        <section class="blog">
+            <article class="blog-post">
+                <h2>Why Unit Conversion Matters</h2>
+                <p>Unit conversion is essential in everyday life, from cooking recipes to engineering designs...</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h2>5 Tips for Accurate Conversions</h2>
+                <p>Ensure your conversions are accurate by following these simple tips...</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+            <article class="blog-post">
+                <h2>The History of Unit Conversion</h2>
+                <p>Unit conversion has a fascinating history dating back to ancient civilizations...</p>
+                <a href="#" class="read-more">Read More</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Unit Converter. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
