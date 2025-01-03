@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Services</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul class="navbar">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="testimonials.html">Testimonials</a></li>
+                <li><a href="blog.html">Blog</a></li>
+                <li><a href="team.html">Team</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+            </ul>
+        </nav>
+        <h1>Our Services</h1>
+    </header>
+
+    <main>
+        <section class="services">
+            <div class="service">
+                <h3>Premium Conversion Tools</h3>
+                <p>Access advanced tools for professional-grade conversions.</p>
+            </div>
+            <div class="service">
+                <h3>Custom Conversion Rates</h3>
+                <p>Get custom rates tailored for your business needs.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Unit Converter. All rights reserved.</p>
+    </footer>
+</body>
+</html>
+
